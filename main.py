@@ -1,4 +1,4 @@
-
+'''
 def log_call(func):
     def wrapper(*args, **kwargs):
         returning = func(*args, **kwargs)
@@ -46,3 +46,17 @@ class Student:
         print(f"Ім'я: {self.name}, Вік: {self.age}")
 student = Student("Vasia", 23)
 student.info()
+#2
+class Circle:
+    def __init__(self,radius):
+        self.area = area
+    def area(self):
+            print(f" {area.}")
+'''
+class Animals:
+    pass
+class Dog(Animals):
+    def sound(self):
+        print("Гав")
+bobik = Dog()
+bobik.sound()
