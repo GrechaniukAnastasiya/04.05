@@ -1,3 +1,4 @@
+
 def log_call(func):
     def wrapper(*args, **kwargs):
         returning = func(*args, **kwargs)
@@ -11,4 +12,21 @@ def temperature(C):
 print(temperature(32))
 print(temperature(40))
 print(temperature(50))
+#Класи
+class Student:
+    print("Hi!")
+    height = 190
+    print(height)
+    def __init__(self, height = 150):
+        self.height = height
+oleg = Student() #об'єкт, екземпляр класу
+print(oleg.height)
 
+class Student:
+    print("Hi!")
+    def __init__(self, height = 150):
+        self.height = height
+oleg = Student() #об'єкт, екземпляр класу
+print(oleg.height)
+masha = Student(height = 200)
+print(masha.height)
