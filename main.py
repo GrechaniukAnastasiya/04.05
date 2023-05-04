@@ -53,6 +53,7 @@ class Circle:
     def area(self):
             print(f" {area.}")
 '''
+#3
 class Animals:
     pass
 class Dog(Animals):
@@ -60,3 +61,20 @@ class Dog(Animals):
         print("Гав")
 bobik = Dog()
 bobik.sound()
+#4
+class BankAccount:
+    def __init__(selfself, owner, balance = 0):
+        self.owner = owner
+        self.balance = balance
+    def deposit(selfself, amount):
+        if amaunt > 0:
+            self.balance += amount
+        print(f"{amount} грн. успішно додано до рахунку {self.owner}")
+        else:
+        print("Сума поповнення має бути більше нуля")
+    def withdraw(selfself, amount):
+        if self.balance >= amount > 0:
+            self.balance -= amount
+        print(f"{amount} грн. успішно знято з рахунку {self.owner}")
+        else:
+        print("Недостатньо коштів на рахунку або сума зняття має бути більше нуля")
