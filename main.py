@@ -36,3 +36,13 @@ masha = Student(height = 200)
 print(masha.height)
 print(Student.count)
 print(masha.breathing())
+#Практична
+#1
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def info(self):
+        print(f"Ім'я: {self.name}, Вік: {self.age}")
+student = Student("Vasia", 23)
+student.info()
